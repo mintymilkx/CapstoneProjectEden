@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Eden</string>
+    <string name="eden">EDEN</string>
+    <string name="greetings">Let\'s garden ......</string>
+    <string name="continue_">Continue</string>
+    <string name="plant">plant</string>
+    <string name="logo">logo</string>
+    <string name="welcome">welcome</string>
+    <string name="name">name</string>
+
+    <string name="filled_first">Isi Terlebih Dahulu</string>
+    <string name="wrong_email">Invalid email </string>
+    <string name="email">Email</string>
+    <string name="input_email">Masukkan email</string>
+    <string name="password">Password</string>
+    <string name="invalid_password">Password harus lebih >5 karakter</string>
+    <string name="input_password">Masukkan password</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="login_account">Login</string>
+    <string name="string_don_t_have_account">Doesn\'t Have an Account?</string>
+    <string name="create_acc">Create Account</string>
+</resources>
