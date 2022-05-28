@@ -8,8 +8,10 @@
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Eden/app/src/main/res/drawable-v24/border_corner_pink.xml" value="0.1795" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Eden/app/src/main/res/drawable-v24/ic_baseline_close_24.xml" value="0.1795" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Eden/app/src/main/res/drawable-v24/ic_eye_disable.xml" value="0.1795" />
-        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Eden/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Eden/app/src/main/res/drawable/bg_button_disable.xml" value="0.1795" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Eden/app/src/main/res/layout/activity_login.xml" value="0.33" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Eden/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Eden/app/src/main/res/layout/activity_register.xml" value="0.25" />
       </map>
     </option>
   </component>
