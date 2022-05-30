@@ -28,5 +28,10 @@
     <string name="have_account"><u>Already Have an Account? Log In</u></string>
     <string name="google_signup">Sign Up With Google</string>
     <string name="google_login">Log In With Google</string>
+    <string name="gacha">Gacha</string>
+    <string name="redeem">Redeem to Win Gacha</string>
+    <string name="exchange_point">Exchange Point 400xp</string>
+    <string name="Gacha">choose_gacha</string>
+    <string name="plant_bottom_image">Plant Bottom</string>
 
 </resources>
