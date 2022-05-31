@@ -30,8 +30,12 @@
     <string name="google_login">Log In With Google</string>
     <string name="gacha">Gacha</string>
     <string name="redeem">Redeem to Win Gacha</string>
+
     <string name="exchange_point">Exchange Point 400xp</string>
     <string name="Gacha">choose_gacha</string>
     <string name="plant_bottom_image">Plant Bottom</string>
+    <string name="win_gacha">Congratulations!</string>
+    <string name="confeti">Confeti</string>
+    <string name="get_plant">Get Plant</string>
 
 </resources>
