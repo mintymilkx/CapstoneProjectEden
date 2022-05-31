@@ -37,5 +37,7 @@
     <string name="win_gacha">Congratulations!</string>
     <string name="confeti">Confeti</string>
     <string name="get_plant">Get Plant</string>
+    <string name="ok">OK</string>
+    <string name="close">CLOSE</string>
 
 </resources>
