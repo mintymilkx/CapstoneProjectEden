@@ -32,6 +32,31 @@
         android:contentDescription="@string/logo_donasi" />
 
     <androidx.appcompat.widget.SearchView
+        android:id="@+id/sv_donasi"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginRight="32dp"
+        android:background="@drawable/custom_background"
+        android:queryHint="@string/search"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_donasi"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sv_donasi"
+        tools:listitem="@layout/item_donasi"/>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

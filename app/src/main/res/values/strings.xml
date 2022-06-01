@@ -42,5 +42,6 @@
     <string name="donasi">Donasi</string>
     <string name="logo_donasi">Logo Donasi</string>
     <string name="donasi_sample">Sample Image Donasi</string>
+    <string name="search">Cari Donasi</string>
 
 </resources>
