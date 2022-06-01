@@ -14,5 +14,6 @@
     <color name="gray_400">#9A9A99</color>
     <color name="mocca">#D1A365</color>
     <color name="blue_300">#0091ea</color>
-    <color name="light_gray">FAFAFA</color>
+    <color name="light_gray">#FAFAFA</color>
+    <color name="gray_500">#F8F8F8</color>
 </resources>
