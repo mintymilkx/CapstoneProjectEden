@@ -39,5 +39,8 @@
     <string name="get_plant">Get Plant</string>
     <string name="ok">OK</string>
     <string name="close">CLOSE</string>
+    <string name="donasi">Donasi</string>
+    <string name="logo_donasi">Logo Donasi</string>
+    <string name="donasi_sample">Sample Image Donasi</string>
 
 </resources>
