@@ -39,6 +39,7 @@
     <string name="get_plant">Get Plant</string>
     <string name="ok">OK</string>
     <string name="close">CLOSE</string>
+
     <string name="donasi">Donasi</string>
     <string name="logo_donasi">Logo Donasi</string>
     <string name="donasi_sample">Sample Image Donasi</string>
@@ -49,5 +50,16 @@
     <string name="tentang_donasi">Tentang Donasi</string>
     <string name="donasi_sekarang">Donasi Sekarang</string>
     <string name="detail_donasi">Detail Donasi</string>
+
+    <string name="metode_pembayaran">Pilih Metode Pembayaran</string>
+    <string name="e_wallet">E-Wallet</string>
+    <string name="shopee_pay">Shopee Pay</string>
+    <string name="dana">Dana</string>
+    <string name="arrow_forward">Arrow Forward</string>
+    <string name="gopay">Gopay</string>
+    <string name="virtual_acc">Transfer Virtual Account</string>
+    <string name="mandiri">Mandiri</string>
+    <string name="bca">BCA</string>
+    <string name="pembayaran_lain"><u>Lihat Metode Pembayaran Lainnya</u></string>
 
 </resources>
