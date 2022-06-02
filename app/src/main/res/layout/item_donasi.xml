@@ -6,7 +6,6 @@
     android:layout_height="wrap_content"
     android:id="@+id/cv_item"
     android:layout_gravity="center"
-    android:layout_margin="10dp"
     app:cardCornerRadius="12dp">
 
     <androidx.constraintlayout.widget.ConstraintLayout

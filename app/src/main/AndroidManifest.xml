@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Eden">
         <activity
+            android:name=".DetailDonasiActivity"
+            android:exported="false" />
+        <activity
             android:name=".ChooseGachaActivity"
             android:exported="false" />
         <activity

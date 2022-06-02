@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/detailToolbar"
+        style="@style/ToolbarTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="@string/detail_donasi" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/detailToolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="222dp"
+                android:contentDescription="@string/sample_detail"
+                android:cropToPadding="true"
+                tools:src="@tools:sample/avatars"
+                tools:srcCompat="@drawable/sample_donasi" />
+
+            <TextView
+                style="@style/TextViewBoldPop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="14dp"
+                android:textColor="@color/dark_green"
+                android:textSize="20sp"
+                tools:text="Nama Donasi" />
+
+            <TextView
+                style="@style/TextViewMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="22dp"
+                android:textColor="@color/green_100"
+                android:textSize="15sp"
+                tools:text="Jumlah Donasi Terkumpul" />
+
+            <TextView
+                style="@style/TextViewBoldPop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="14dp"
+                android:textColor="@color/gray_600"
+                android:textSize="15sp"
+                tools:text="Penggalang Dana" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cv_penggalang"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginTop="6dp"
+                app:cardCornerRadius="12dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp">
+
+                    <ImageView
+                        android:id="@+id/iv_penggalang"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="8dp"
+                        android:adjustViewBounds="true"
+                        android:contentDescription="@string/penggalang_sample"
+                        android:scaleType="centerCrop"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:src="@tools:sample/avatars"
+                        tools:srcCompat="@drawable/sample_penggalang_dana" />
+
+                    <TextView
+                        android:id="@+id/tv_donasi"
+                        style="@style/TextViewSemiBold"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:textColor="@color/gray_600"
+                        android:textSize="12sp"
+                        app:layout_constraintBottom_toBottomOf="@id/iv_penggalang"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toEndOf="@+id/iv_penggalang"
+                        app:layout_constraintTop_toTopOf="@id/iv_penggalang"
+                        app:layout_constraintVertical_bias="0.0"
+                        tools:text="Nama Penggalang" />
+
+                    <TextView
+                        android:id="@+id/tv_verifikasi"
+                        style="@style/TextViewRegular"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="13dp"
+                        android:textColor="@color/gray_600"
+                        android:textSize="15sp"
+                        app:layout_constraintEnd_toEndOf="@+id/tv_donasi"
+                        app:layout_constraintStart_toStartOf="@+id/tv_donasi"
+                        app:layout_constraintTop_toBottomOf="@+id/tv_donasi"
+                        android:text="@string/organisasi_terverifikasi"/>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                style="@style/TextViewBoldPop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="18dp"
+                android:textColor="@color/gray_600"
+                android:textSize="15sp"
+                android:text="@string/tentang_donasi" />
+
+            <TextView
+                style="@style/TextViewRegular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="6dp"
+                android:textColor="@color/gray_600"
+                android:textSize="15sp"
+                tools:text="Deskripsi Donasi" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn_donasi"
+        style="@style/ButtonRegular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="32dp"
+        android:layout_marginEnd="32dp"
+        android:text="@string/donasi_sekarang"
+        android:textStyle="bold" />
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
