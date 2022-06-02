@@ -10,6 +10,27 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Eden">
         <activity
+            android:name=".MyPlantsDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MyPlantsActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".TaskListDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PlantListTaskActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PlantDetailAfterScanningActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ScanActivity"
+            android:exported="false" />
+        <activity
             android:name=".LoginActivity"
             android:exported="false" />
         <activity
