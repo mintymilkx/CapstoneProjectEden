@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlantDetailAfterScanningActivity">
+
+    <ImageView
+        android:id="@+id/bt_close_in_myPlantsDetail"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="310dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="?attr/actionModeCloseDrawable" />
+
+    <TextView
+        android:id="@+id/title_PlantDetail_in_afterScan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:foregroundGravity="center_vertical|center_horizontal"
+        android:text="Plant Detail"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bt_close_in_myPlantsDetail" />
+
+    <TextView
+        android:id="@+id/tv_plant_name_in_myPlantDetail_afterScan"
+        android:layout_width="129dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="22dp"
+        android:text="TextView"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/bt_close_in_myPlantsDetail"
+        app:layout_constraintTop_toBottomOf="@+id/bt_close_in_myPlantsDetail" />
+
+    <TextView
+        android:id="@+id/tv_plant_type_in_myPlantDetail_afterScan"
+        android:layout_width="129dp"
+        android:layout_height="28sp"
+        android:layout_marginTop="5dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="@+id/tv_plant_name_in_myPlantDetail_afterScan"
+        app:layout_constraintTop_toBottomOf="@+id/tv_plant_name_in_myPlantDetail_afterScan" />
+
+    <TextView
+        android:id="@+id/title_planted_in_myPlantDetail_afterScan"
+        android:layout_width="63dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="15dp"
+        android:text="TextView"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/tv_plant_type_in_myPlantDetail_afterScan"
+        app:layout_constraintTop_toBottomOf="@+id/tv_plant_type_in_myPlantDetail_afterScan" />
+
+    <TextView
+        android:id="@+id/title_benefit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="Benefit"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/title_planted_in_myPlantDetail_afterScan"
+        app:layout_constraintTop_toBottomOf="@+id/title_planted_in_myPlantDetail_afterScan" />
+
+    <TextView
+        android:id="@+id/tv_benefit_description__afterScan"
+        android:layout_width="315dp"
+        android:layout_height="138dp"
+        android:layout_marginTop="10dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="@+id/title_benefit"
+        app:layout_constraintTop_toBottomOf="@+id/title_benefit" />
+
+    <TextView
+        android:id="@+id/title_physical_appearance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Physical Appearance"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/tv_benefit_description__afterScan"
+        app:layout_constraintTop_toBottomOf="@+id/tv_benefit_description__afterScan" />
+
+    <TextView
+        android:id="@+id/tv_physicalAppearance_afterScan"
+        android:layout_width="315dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="@+id/title_physical_appearance"
+        app:layout_constraintTop_toBottomOf="@+id/title_physical_appearance" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview_for_plantPicture"
+        android:layout_width="145dp"
+        android:layout_height="190dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tv_plant_name_in_myPlantDetail_afterScan">
+
+        <ImageView
+            android:id="@+id/iv_plant_in_myPlantDetails_afterScan"
+            android:layout_width="90dp"
+            android:layout_height="145dp"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            tools:srcCompat="@tools:sample/avatars" />
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/bt_add_to_my_plants"
+        android:layout_width="254dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="176dp"
+        android:layout_marginBottom="18dp"
+        android:gravity="center_horizontal"
+        android:text="+ Add to my plants"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.393"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_physicalAppearance_afterScan"
+        app:layout_constraintVertical_bias="1.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>
