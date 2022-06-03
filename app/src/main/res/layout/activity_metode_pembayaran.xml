@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MetodePembayaranActivity"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        style="@style/ToolbarTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="@string/metode_pembayaran" />
+
+    <TextView
+        android:id="@+id/tv_e_wallet"
+        style="@style/TextViewBoldPop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/e_wallet"
+        android:textColor="@color/gray_600"
+        android:textSize="17sp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cv_shopee"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="6dp"
+        app:cardCornerRadius="12dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/iv_shopee"
+                android:layout_width="105dp"
+                android:layout_height="60dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/penggalang_sample"
+                android:scaleType="centerCrop"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:src="@drawable/shopeepay"/>
+
+            <TextView
+                android:id="@+id/tv_shopeePay"
+                style="@style/TextViewSemiBold"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="@string/shopee_pay"
+                android:textColor="@color/gray_600"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toBottomOf="@id/iv_shopee"
+                app:layout_constraintEnd_toStartOf="@id/arrow"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/iv_shopee"
+                app:layout_constraintTop_toTopOf="@id/iv_shopee" />
+
+            <ImageView
+                android:id="@+id/arrow"
+                android:src="@drawable/ic_baseline_arrow_forward"
+                android:layout_marginEnd="8dp"
+                android:layout_width="24dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                app:layout_constraintBottom_toBottomOf="@id/tv_shopeePay"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/tv_shopeePay"
+                app:layout_constraintTop_toTopOf="@id/tv_shopeePay"
+                android:contentDescription="@string/arrow_forward" />
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cv_dana"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="12dp"
+        app:cardCornerRadius="12dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/iv_dana"
+                android:layout_width="105dp"
+                android:layout_height="60dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/dana"
+                android:scaleType="centerCrop"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:src="@drawable/dana"/>
+
+            <TextView
+                android:id="@+id/tv_dana"
+                style="@style/TextViewSemiBold"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="@string/dana"
+                android:textColor="@color/gray_600"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toBottomOf="@id/iv_dana"
+                app:layout_constraintEnd_toStartOf="@id/arrow2"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/iv_dana"
+                app:layout_constraintTop_toTopOf="@id/iv_dana" />
+
+            <ImageView
+                android:id="@+id/arrow2"
+                android:src="@drawable/ic_baseline_arrow_forward"
+                android:layout_marginEnd="8dp"
+                android:layout_width="24dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                app:layout_constraintBottom_toBottomOf="@id/tv_dana"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/tv_dana"
+                app:layout_constraintTop_toTopOf="@id/tv_dana"
+                android:contentDescription="@string/arrow_forward" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cv_gopay"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="12dp"
+        app:cardCornerRadius="12dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/iv_gopay"
+                android:layout_width="105dp"
+                android:layout_height="60dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/dana"
+                android:scaleType="centerCrop"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:src="@drawable/gopay"/>
+
+            <TextView
+                android:id="@+id/tv_gopay"
+                style="@style/TextViewSemiBold"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="@string/gopay"
+                android:textColor="@color/gray_600"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toBottomOf="@id/iv_gopay"
+                app:layout_constraintEnd_toStartOf="@id/arrow3"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/iv_gopay"
+                app:layout_constraintTop_toTopOf="@id/iv_gopay" />
+
+            <ImageView
+                android:id="@+id/arrow3"
+                android:src="@drawable/ic_baseline_arrow_forward"
+                android:layout_marginEnd="8dp"
+                android:layout_width="24dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                app:layout_constraintBottom_toBottomOf="@id/tv_gopay"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/tv_gopay"
+                app:layout_constraintTop_toTopOf="@id/tv_gopay"
+                android:contentDescription="@string/arrow_forward" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/tv_va"
+        style="@style/TextViewBoldPop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="18dp"
+        android:text="@string/virtual_acc"
+        android:textColor="@color/gray_600"
+        android:textSize="17sp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cv_mandiri"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="6dp"
+        app:cardCornerRadius="12dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/iv_mandiri"
+                android:layout_width="105dp"
+                android:layout_height="60dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/mandiri"
+                android:scaleType="centerCrop"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:src="@drawable/mandiri"/>
+
+            <TextView
+                android:id="@+id/tv_mandiri"
+                style="@style/TextViewSemiBold"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="@string/mandiri"
+                android:textColor="@color/gray_600"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toBottomOf="@id/iv_mandiri"
+                app:layout_constraintEnd_toStartOf="@id/arrow4"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/iv_mandiri"
+                app:layout_constraintTop_toTopOf="@id/iv_mandiri" />
+
+            <ImageView
+                android:id="@+id/arrow4"
+                android:src="@drawable/ic_baseline_arrow_forward"
+                android:layout_marginEnd="8dp"
+                android:layout_width="24dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                app:layout_constraintBottom_toBottomOf="@id/tv_mandiri"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/tv_mandiri"
+                app:layout_constraintTop_toTopOf="@id/tv_mandiri"
+                android:contentDescription="@string/arrow_forward" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cv_bca"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="12dp"
+        app:cardCornerRadius="12dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/iv_bca"
+                android:layout_width="105dp"
+                android:layout_height="60dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/mandiri"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bca"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_bca"
+                style="@style/TextViewSemiBold"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="@string/bca"
+                android:textColor="@color/gray_600"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toBottomOf="@id/iv_bca"
+                app:layout_constraintEnd_toStartOf="@id/arrow5"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/iv_bca"
+                app:layout_constraintTop_toTopOf="@id/iv_bca" />
+
+            <ImageView
+                android:id="@+id/arrow5"
+                android:layout_width="24dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="8dp"
+                android:contentDescription="@string/arrow_forward"
+                android:src="@drawable/ic_baseline_arrow_forward"
+                app:layout_constraintBottom_toBottomOf="@id/tv_bca"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/tv_bca"
+                app:layout_constraintTop_toTopOf="@id/tv_bca" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cv_bni"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="12dp"
+        app:cardCornerRadius="12dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/iv_bni"
+                android:layout_width="105dp"
+                android:layout_height="60dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/mandiri"
+                android:scaleType="centerCrop"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:src="@drawable/bni"/>
+
+            <TextView
+                android:id="@+id/tv_bni"
+                style="@style/TextViewSemiBold"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="@string/bca"
+                android:textColor="@color/gray_600"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toBottomOf="@id/iv_bni"
+                app:layout_constraintEnd_toStartOf="@id/arrow6"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/iv_bni"
+                app:layout_constraintTop_toTopOf="@id/iv_bni" />
+
+            <ImageView
+                android:id="@+id/arrow6"
+                android:src="@drawable/ic_baseline_arrow_forward"
+                android:layout_marginEnd="8dp"
+                android:layout_width="24dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                app:layout_constraintBottom_toBottomOf="@id/tv_bni"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/tv_bni"
+                app:layout_constraintTop_toTopOf="@id/tv_bni"
+                android:contentDescription="@string/arrow_forward" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/tv_pembayaran_lain"
+        style="@style/TextViewSemiBold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/pembayaran_lain"
+        android:textColor="@color/green_100"
+        android:textSize="15sp" />
+
+
+</LinearLayout>

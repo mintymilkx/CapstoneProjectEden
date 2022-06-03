@@ -4,21 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginActivity">
+    tools:context=".RegisterActivity">
 
     <ImageView
-        android:id="@+id/welcome_img"
+        android:id="@+id/create_acc"
         android:layout_width="412dp"
         android:layout_height="317dp"
-        android:layout_centerHorizontal="true"
         android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
         android:layout_marginStart="0dp"
         android:layout_marginEnd="0dp"
-        android:contentDescription="@string/welcome"
-        android:src="@drawable/welcome" />
+        android:contentDescription="@string/create_acc"
+        android:src="@drawable/create_account" />
 
     <ProgressBar
-        android:id="@+id/progress_bar_login"
+        android:id="@+id/progress_bar_register"
         style="?android:attr/progressBarStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -38,7 +38,30 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
-            android:layout_marginTop="300dp"
+            android:layout_marginTop="320dp"
+            android:text="@string/name"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <com.example.project.capstone.eden.customview.EditTextName
+            android:id="@+id/edt_username"
+            style="@style/EditTextGeneral"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="32dp"
+            android:background="@drawable/border_corner_2"
+            android:hint="@string/input_name"
+            android:inputType="textPersonName" />
+
+        <TextView
+            style="@style/TextViewMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="12dp"
             android:text="@string/email"
             android:textColor="@color/black"
             android:textSize="12sp" />
@@ -85,42 +108,44 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="12dp"
             android:text="@string/forget_password"
             android:textColor="@color/mocca"
             android:textSize="12sp" />
 
         <TextView
-            android:id="@+id/login_with_google"
+            android:id="@+id/regist_with_google"
             style="@style/TextViewMedium"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="10dp"
-            android:text="@string/google_login"
+            android:layout_marginTop="4dp"
+            android:text="@string/google_signup"
             android:textColor="@color/blue_300"
+
             android:textStyle="bold" />
 
-        <com.example.project.capstone.eden.customview.LoginButtonCustom
-            android:id="@+id/btn_login"
+        <com.example.project.capstone.eden.customview.RegisterButtonCustom
+            android:id="@+id/btn_register"
             style="@style/ButtonRegular"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="12dp"
             android:layout_marginEnd="32dp"
-            android:contentDescription="@string/login_account" />
+            android:contentDescription="@string/signup_account" />
 
         <TextView
-            android:id="@+id/doesnt_have_account"
+            android:id="@+id/have_account"
             style="@style/TextViewMedium"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
-            android:text="@string/don_t_have_account"
+            android:text="@string/have_account"
             android:textColor="@color/gray_400"
             android:textStyle="bold" />
+
 
 
 

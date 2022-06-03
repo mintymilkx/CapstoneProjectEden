@@ -14,7 +14,7 @@ import androidx.appcompat.widget.AppCompatEditText
 import androidx.core.content.ContextCompat
 import com.example.project.capstone.eden.R
 
-class EditTextPasswordCustom: AppCompatEditText, View.OnTouchListener {
+class EditTextPassword: AppCompatEditText, View.OnTouchListener {
 
     private lateinit var eyeImageButton: Drawable
 

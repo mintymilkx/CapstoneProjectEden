@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="360dp"
+    android:layout_gravity="center"
+    android:background="@drawable/circlebackground">
+
+    <TextView
+        android:id="@+id/congrats"
+        style="@style/TextViewBoldMons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:text="@string/win_gacha"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/confeti1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/congrats"
+        android:src="@drawable/confeti_up"
+        android:contentDescription="@string/confeti" />
+
+    <ImageView
+        android:id="@+id/gacha_plant"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:layout_below="@+id/confeti1"
+        android:src="@drawable/get_plant"
+        android:contentDescription="@string/get_plant"/>
+
+    <ImageView
+        android:id="@+id/confeti2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:layout_below="@+id/gacha_plant"
+        android:src="@drawable/confeti_down"
+        android:contentDescription="@string/confeti" />
+
+    <Button
+        android:id="@+id/btn_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/confeti2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="@string/close"/>
+
+
+
+
+
+</RelativeLayout>
