@@ -8,24 +8,24 @@
     android:background="@color/pink_background">
 
     <ImageView
+        android:id="@+id/app_logo"
         android:layout_width="75dp"
         android:layout_height="120dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="150dp"
-        android:src="@drawable/app_logo"
-        android:id="@+id/app_logo"
-        android:contentDescription="@string/logo" />
+        android:contentDescription="@string/logo"
+        android:src="@drawable/app_logo" />
 
     <TextView
         android:id="@+id/app_name"
+        style="@style/TextViewBold1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/app_logo"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="15dp"
         android:text="@string/eden"
-        android:textSize="50sp"
-        style="@style/TextViewBold1"/>
+        android:textSize="50sp" />
 
     <TextView
         android:id="@+id/greetings"
@@ -45,8 +45,8 @@
         tools:ignore="UselessParent">
 
         <Button
-            style="@style/ButtonRegular"
             android:id="@+id/btn_continue"
+            style="@style/ButtonRegular"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
@@ -59,8 +59,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:src="@drawable/plant"
         android:layout_centerHorizontal="true"
-        android:contentDescription="@string/plant" />
+        android:contentDescription="@string/plant"
+        android:src="@drawable/plant" />
 
 </RelativeLayout>
