@@ -63,4 +63,13 @@
         <item name="subtitleTextStyle">@style/TextViewButton</item>
     </style>
 
+    <style name="Theme.Eden.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Eden.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Eden.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
 </resources>
