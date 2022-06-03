@@ -271,12 +271,12 @@
         android:id="@+id/cv_bca"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
-        android:layout_marginTop="6dp"
+        android:layout_marginTop="12dp"
         app:cardCornerRadius="12dp">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="match_parent">
 
             <ImageView
                 android:id="@+id/iv_bca"
@@ -285,9 +285,9 @@
                 android:adjustViewBounds="true"
                 android:contentDescription="@string/mandiri"
                 android:scaleType="centerCrop"
+                android:src="@drawable/bca"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                android:src="@drawable/bca"/>
+                app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
                 android:id="@+id/tv_bca"
@@ -306,17 +306,17 @@
 
             <ImageView
                 android:id="@+id/arrow5"
-                android:src="@drawable/ic_baseline_arrow_forward"
-                android:layout_marginEnd="8dp"
                 android:layout_width="24dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
+                android:layout_marginEnd="8dp"
+                android:contentDescription="@string/arrow_forward"
+                android:src="@drawable/ic_baseline_arrow_forward"
                 app:layout_constraintBottom_toBottomOf="@id/tv_bca"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toEndOf="@+id/tv_bca"
-                app:layout_constraintTop_toTopOf="@id/tv_bca"
-                android:contentDescription="@string/arrow_forward" />
+                app:layout_constraintTop_toTopOf="@id/tv_bca" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
@@ -327,7 +327,7 @@
         android:id="@+id/cv_bni"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
-        android:layout_marginTop="6dp"
+        android:layout_marginTop="12dp"
         app:cardCornerRadius="12dp">
 
         <androidx.constraintlayout.widget.ConstraintLayout
