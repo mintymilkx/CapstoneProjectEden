@@ -10,7 +10,6 @@
         android:id="@+id/welcome_img"
         android:layout_width="412dp"
         android:layout_height="317dp"
-        android:layout_centerHorizontal="true"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="0dp"
         android:layout_marginEnd="0dp"
@@ -112,8 +111,6 @@
             android:text="@string/create_acc"
             android:textColor="@color/blue_300"
             android:textStyle="bold" />
-
-
 
 
     </LinearLayout>
