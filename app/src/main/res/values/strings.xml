@@ -160,4 +160,22 @@
     <string name="scan_icon">Scan</string>
     <string name="gacha_icon">Gacha</string>
     <string name="donasi_icon">Donasi</string>
+    <string name="hello">Hellooo</string>
+    <string name="avatar_user">Avatar User</string>
+    <string name="name">Name</string>
+    <string name="star_logo">Star Logo</string>
+    <string name="points">Points</string>
+    <string name="percent">%s</string>
+    <string name="people">People</string>
+    <string name="card_info">Did you know gardening can affect to the better mental health?</string>
+    <string name="card_info2">Studies has proven that gardening able to lift up mood, decrease stress level, and lots more!</string>
+    <string name="lets_garden">So, let\'s just garden, shall we?</string>
+    <string name="today_s_task">Today\'s Task</string>
+    <string name="more_details">More Details</string>
+    <string name="your_progress">Keep your progress!</string>
+    <string name="reminder">Your plants need your attention and affection. Keep an eye for them please :D</string>
+    <string name="fyi">For Your Information</string>
+    <string name="card_info3">Plants and trees are important to save our earth from global warming by filtering pollution!</string>
+    <string name="card_info4">You choose the right path to invest your time and energy to start caring plant and trees!</string>
+    <string name="thank_you">Thank you for you action! :D</string>
 </resources>
