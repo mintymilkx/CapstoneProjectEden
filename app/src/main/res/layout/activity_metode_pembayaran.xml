@@ -22,7 +22,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="16dp"
         android:text="@string/e_wallet"
-        android:textColor="@color/gray_600"
+        android:textColor="@color/dark_green"
         android:textSize="17sp" />
 
     <androidx.cardview.widget.CardView
@@ -206,7 +206,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="18dp"
         android:text="@string/virtual_acc"
-        android:textColor="@color/gray_600"
+        android:textColor="@color/dark_green"
         android:textSize="17sp" />
 
     <androidx.cardview.widget.CardView
