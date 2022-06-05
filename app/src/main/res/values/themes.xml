@@ -28,6 +28,14 @@
         <item name="android:layout_height">wrap_content</item>
     </style>
 
+
+    <style name="TextViewBoldPop_green">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textColor">@color/dark_green</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
     <style name="TextViewBoldMons">
         <item name="android:fontFamily">@font/mons_bold</item>
         <item name="android:textColor">@color/green_100</item>

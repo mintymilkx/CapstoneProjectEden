@@ -1,20 +1,20 @@
 <resources>
     <string name="app_name">Eden</string>
     <string name="eden">EDEN</string>
-    <string name="greetings">Let\'s garden ......</string>
+    <string name="greetings">Let\'s gardening :)</string>
     <string name="continue_">Continue</string>
     <string name="plant">plant</string>
     <string name="logo">logo</string>
     <string name="welcome">welcome</string>
     <string name="name">Name</string>
 
-    <string name="filled_first">Isi Terlebih Dahulu</string>
-    <string name="wrong_email">Invalid email </string>
+    <string name="filled_first">Please fill first!</string>
+    <string name="wrong_email">Invalid email</string>
     <string name="email">Email</string>
-    <string name="input_email">Masukkan email</string>
+    <string name="input_email">Input your email</string>
     <string name="password">Password</string>
-    <string name="invalid_password">Password harus lebih >5 karakter</string>
-    <string name="input_password">Masukkan password</string>
+    <string name="invalid_password">Password must be more than five characters</string>
+    <string name="input_password">Input password</string>
     <string name="forget_password">Forget Password?</string>
     <string name="login_account">Login</string>
     <string name="don_t_have_account"><u>Doesn\'t have an account? Create Account</u></string>
@@ -22,7 +22,7 @@
 
     <string name="log_in">Log In</string>
     <string name="fill_field">Field cannot be empty</string>
-    <string name="input_name">Masukkan Nama</string>
+    <string name="input_name">Input name</string>
     <string name="sign_up">Sign Up</string>
     <string name="signup_account">Sign Up</string>
     <string name="have_account"><u>Already Have an Account? Log In</u></string>
@@ -45,11 +45,11 @@
     <string name="donasi_sample">Sample Image Donasi</string>
     <string name="search">Cari Donasi</string>
     <string name="sample_detail">Sample Detail Donasi</string>
-    <string name="penggalang_sample">Sample Image Penggalang Dana</string>
-    <string name="organisasi_terverifikasi">Organisasi Terverifikasi</string>
-    <string name="tentang_donasi">Tentang Donasi</string>
-    <string name="donasi_sekarang">Donasi Sekarang</string>
-    <string name="detail_donasi">Detail Donasi</string>
+    <string name="penggalang_sample">Sample Image of Fundraiser</string>
+    <string name="organisasi_terverifikasi">Verified Organisation</string>
+    <string name="tentang_donasi">About Donation</string>
+    <string name="donasi_sekarang">Donate Now</string>
+    <string name="detail_donasi">Donation Detail</string>
 
     <string name="metode_pembayaran">Pilih Metode Pembayaran</string>
     <string name="e_wallet">E-Wallet</string>
@@ -60,6 +60,31 @@
     <string name="virtual_acc">Transfer Virtual Account</string>
     <string name="mandiri">Mandiri</string>
     <string name="bca">BCA</string>
-    <string name="pembayaran_lain"><u>Lihat Metode Pembayaran Lainnya</u></string>
+    <string name="pembayaran_lain"><u>LSee Another Payment Method</u></string>
+
+    <string name="point_overall">%points</string>
+    <string name="plant_name">%plant name</string>
+    <string name="planted_date">%planted date</string>
+    <string name="plant_type">%plant type</string>
+    <string name="task">%task</string>
+    <string name="task_point">%points</string>
+    <string name="progress">%progress</string>
+    <string name="my_plants">My Plants</string>
+    <string name="task_date">%date</string>
+    <string name="planted_points">%point</string>
+    <string name="plant_image">Plant image</string>
+    <string name="my_plant">My Plant</string>
+    <string name="planted">Planted</string>
+    <string name="history">History</string>
+    <string name="benefit_desc">Benefit description</string>
+    <string name="physicalAppearance_desc">Physical apearcance description</string>
+    <string name="plant_detail">Plant Detail</string>
+    <string name="benefit">Benefit</string>
+    <string name="physical_appearance">Physical Appearance</string>
+    <string name="task_title">Task</string>
+    <string name="progress_title">Progress :</string>
+    <string name="this_week">This week</string>
+    <string name="goal">Goal</string>
+
 
 </resources>
