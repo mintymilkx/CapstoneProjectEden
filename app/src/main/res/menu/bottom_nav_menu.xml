@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:title="@string/home_icon"
+        android:icon="@drawable/ic_home"/>
+
+    <item
+        android:id="@+id/plants"
+        android:title="@string/my_plants_icon"
+        android:icon="@drawable/ic_plants"/>
+
+    <item
+        android:id="@+id/scan"
+        android:title="@string/scan_icon"
+        android:icon="@drawable/ic_center_focus_strong_24px_outlined"/>
+
+    <item
+        android:id="@+id/gacha"
+        android:title="@string/gacha_icon"
+        android:icon="@drawable/ic_gacha"/>
+
+    <item
+        android:id="@+id/donasi"
+        android:title="@string/donasi_icon"
+        android:icon="@drawable/ic_donasi"/>
+
+</menu>
