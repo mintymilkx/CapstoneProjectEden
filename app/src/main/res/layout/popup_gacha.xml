@@ -29,11 +29,11 @@
         android:id="@+id/gacha_plant"
         android:layout_width="200dp"
         android:layout_height="150dp"
+        android:layout_below="@+id/confeti1"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="0dp"
-        android:layout_below="@+id/confeti1"
-        android:src="@drawable/get_plant"
-        android:contentDescription="@string/get_plant"/>
+        android:contentDescription="@string/get_plant"
+        android:src="@drawable/get_plant" />
 
     <ImageView
         android:id="@+id/confeti2"
