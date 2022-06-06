@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "106698503490",
+    "project_id": "bangkit-capstone-eden",
+    "storage_bucket": "bangkit-capstone-eden.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:106698503490:android:a29899c3044e91b07644db",
+        "android_client_info": {
+          "package_name": "com.example.project.capstone.eden"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "106698503490-9s1ni87p61e039l18ol6vuq48sdt29pq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.project.capstone.eden",
+            "certificate_hash": "b3853362b82c2d3388d9d78107895d61d9da0ffe"
+          }
+        },
+        {
+          "client_id": "106698503490-0c04404e47ena6lm5pvohagh0p57abvd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEMSrd1VAo92ZqdGqYplbqUEfqt6pUp9Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "106698503490-0c04404e47ena6lm5pvohagh0p57abvd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
