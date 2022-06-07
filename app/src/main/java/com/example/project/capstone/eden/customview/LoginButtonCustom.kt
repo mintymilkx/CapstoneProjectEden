@@ -33,7 +33,7 @@ class LoginButtonCustom: AppCompatButton {
         super.onDraw(canvas)
         background = if(isEnabled) enabledBackground else disabledBackground
         setTextColor(txtColor)
-        textSize = 12f
+        textSize = 15f
         gravity = Gravity.CENTER
         text =
             if(isEnabled) context.getString(R.string.log_in)

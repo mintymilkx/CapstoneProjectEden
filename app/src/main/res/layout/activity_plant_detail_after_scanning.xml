@@ -113,7 +113,7 @@
         android:layout_height="100dp"
         android:layout_marginTop="10dp"
         android:fontFamily="@font/poppins_regular"
-        android:text="@string/physicalAppearance_desc"
+        android:text="@string/physical_appearance_desc"
         android:textColor="#838383"
         app:layout_constraintStart_toStartOf="@+id/title_physical_appearance"
         app:layout_constraintTop_toBottomOf="@+id/title_physical_appearance" />
