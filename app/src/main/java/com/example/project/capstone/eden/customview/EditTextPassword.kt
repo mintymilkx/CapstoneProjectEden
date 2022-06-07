@@ -33,7 +33,7 @@ class EditTextPassword: AppCompatEditText, View.OnTouchListener {
     override fun onDraw(canvas: Canvas) {
         super.onDraw(canvas)
         showEyeIcon()
-        setBackgroundResource(R.drawable.border_corner_2)
+        setBackgroundResource(R.drawable.border_corner)
         textSize = 15f
         textAlignment = View.TEXT_ALIGNMENT_VIEW_START
     }
