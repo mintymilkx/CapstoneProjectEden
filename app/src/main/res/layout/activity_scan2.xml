@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ScanActivity">
+    tools:context=".activity.ScanActivity">
 
 
     <androidx.camera.view.PreviewView
@@ -36,7 +36,8 @@
             android:id="@+id/imageView2"
             android:layout_width="69dp"
             android:layout_height="69dp"
-            app:srcCompat="@drawable/ic_baseline_close_24" />
+            app:srcCompat="@drawable/ic_baseline_close_24"
+            android:contentDescription="@string/close_camera" />
     </androidx.camera.view.PreviewView>
 
 </RelativeLayout>

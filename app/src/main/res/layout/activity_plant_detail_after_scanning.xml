@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PlantDetailAfterScanningActivity">
+    tools:context=".activity.PlantDetailAfterScanningActivity">
 
     <ImageView
         android:id="@+id/bt_close_in_myPlantsDetail"

@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.project.capstone.eden">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -12,38 +12,45 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Eden">
         <activity
-            android:name=".MyPlantsDetailActivity"
+            android:name=".activity.ProfileActivity"
             android:exported="false" />
         <activity
-            android:name=".MyPlantsActivity2"
+            android:name=".activity.MyPlantsDetailActivity"
             android:exported="false" />
         <activity
-            android:name=".TaskListDetailActivity"
+            android:name=".activity.MyPlantsActivity2"
             android:exported="false" />
         <activity
-            android:name=".PlantListTaskActivity"
+            android:name=".activity.TaskListDetailActivity"
             android:exported="false" />
         <activity
-            android:name=".PlantDetailAfterScanningActivity"
+            android:name=".activity.PlantListTaskActivity"
             android:exported="false" />
         <activity
-            android:name=".HomeActivity"
+            android:name=".activity.PlantDetailAfterScanningActivity"
             android:exported="false" />
         <activity
-            android:name=".ScanActivity"
+            android:name=".activity.HomeActivity"
             android:exported="false" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".activity.ScanActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".activity.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.OnBoardingActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".activity.RegisterActivity"
+            android:exported="false" />
     </application>
 
 </manifest>

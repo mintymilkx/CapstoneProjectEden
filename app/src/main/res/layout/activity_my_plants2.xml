@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MyPlantsActivity2">
+    tools:context=".activity.MyPlantsActivity2">
 
     <TextView
         android:id="@+id/title_myPlants"
@@ -36,7 +36,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/floating_button"
-        android:focusable="true" />
+        android:focusable="true"
+        android:contentDescription="@string/plants_fab" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_listPlants_in_myPlants"

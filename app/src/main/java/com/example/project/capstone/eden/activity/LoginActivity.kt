@@ -102,8 +102,8 @@ class LoginActivity : AppCompatActivity() {
                     progressDialog.dismiss()
                     //get user info
                     val firebaseUser = firebaseAuth.currentUser
-                    val email = firebaseUser!!.email
-                    Toast.makeText(this, "Welcome $email", Toast.LENGTH_SHORT).show()
+                    val userEmail = firebaseUser!!.email
+                    Toast.makeText(this, "Welcome $userEmail", Toast.LENGTH_SHORT).show()
 
                     //open profile activity
                     val intent = Intent(this, ProfileActivity::class.java)

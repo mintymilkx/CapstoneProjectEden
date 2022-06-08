@@ -91,13 +91,13 @@ class RegisterActivity : AppCompatActivity() {
             auth.createUserWithEmailAndPassword(email, password)
                 .addOnCompleteListener {
                     if (it.isSuccessful) {
-                        //login success
+                        //register success
                         progressDialog.dismiss()
                         val currentUser = auth.currentUser
                         val currentUserDb = databaseReference?.child((currentUser?.uid!!))
                         currentUserDb?.child("username")?.setValue(username)
-                        Toast.makeText(this, "Registration Success!", Toast.LENGTH_LONG).show()
-                        startActivity(Intent(this, LoginActivity::class.java))
+                        Toast.makeText(this, "Registration success! You can login with your account", Toast.LENGTH_LONG).show()
+                        //startActivity(Intent(this, LoginActivity::class.java))
                         finish()
 
                     } else {
@@ -105,6 +105,8 @@ class RegisterActivity : AppCompatActivity() {
                         Toast.makeText(this, "Registration Failed, please try again!", Toast.LENGTH_LONG).show()
                     }
                 }
+            startActivity(Intent(this, LoginActivity::class.java))
+            finish()
         }
 
     }
