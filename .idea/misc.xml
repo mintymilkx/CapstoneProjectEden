@@ -8,19 +8,22 @@
         <entry key="..\:/KULIAH/Bangkit/CapstoneProjectEden/app/src/main/res/layout/activity_choose_gacha.xml" value="0.2359375" />
         <entry key="..\:/KULIAH/Bangkit/CapstoneProjectEden/app/src/main/res/layout/activity_detail_donasi.xml" value="0.2359375" />
         <entry key="..\:/KULIAH/Bangkit/CapstoneProjectEden/app/src/main/res/layout/activity_detail_plant_after_scan.xml" value="0.25" />
-        <entry key="..\:/KULIAH/Bangkit/CapstoneProjectEden/app/src/main/res/layout/activity_home.xml" value="0.6" />
+        <entry key="..\:/KULIAH/Bangkit/CapstoneProjectEden/app/src/main/res/layout/activity_home.xml" value="0.176" />
         <entry key="..\:/KULIAH/Bangkit/CapstoneProjectEden/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/KULIAH/Bangkit/CapstoneProjectEden/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/KULIAH/Bangkit/CapstoneProjectEden/app/src/main/res/layout/activity_metode_pembayaran.xml" value="0.176" />
-        <entry key="..\:/KULIAH/Bangkit/CapstoneProjectEden/app/src/main/res/layout/activity_my_plants2.xml" value="0.4" />
-        <entry key="..\:/KULIAH/Bangkit/CapstoneProjectEden/app/src/main/res/layout/activity_my_plants_detail.xml" value="0.36115843270868825" />
+        <entry key="..\:/KULIAH/Bangkit/CapstoneProjectEden/app/src/main/res/layout/activity_my_plants2.xml" value="0.39332096474953615" />
+        <entry key="..\:/KULIAH/Bangkit/CapstoneProjectEden/app/src/main/res/layout/activity_my_plants_detail.xml" value="0.176" />
         <entry key="..\:/KULIAH/Bangkit/CapstoneProjectEden/app/src/main/res/layout/activity_plant_detail_after_scanning.xml" value="0.2" />
         <entry key="..\:/KULIAH/Bangkit/CapstoneProjectEden/app/src/main/res/layout/activity_plant_list_task.xml" value="0.264" />
         <entry key="..\:/KULIAH/Bangkit/CapstoneProjectEden/app/src/main/res/layout/activity_register.xml" value="0.25" />
         <entry key="..\:/KULIAH/Bangkit/CapstoneProjectEden/app/src/main/res/layout/activity_scan2.xml" value="0.25" />
-        <entry key="..\:/KULIAH/Bangkit/CapstoneProjectEden/app/src/main/res/layout/activity_task_list_detail.xml" value="0.2082514734774067" />
+        <entry key="..\:/KULIAH/Bangkit/CapstoneProjectEden/app/src/main/res/layout/activity_task_list_detail.xml" value="0.4" />
         <entry key="..\:/KULIAH/Bangkit/CapstoneProjectEden/app/src/main/res/layout/content_scrolling.xml" value="0.11944444444444445" />
         <entry key="..\:/KULIAH/Bangkit/CapstoneProjectEden/app/src/main/res/layout/fragment_donasi.xml" value="0.6" />
+        <entry key="..\:/KULIAH/Bangkit/CapstoneProjectEden/app/src/main/res/layout/fragment_gacha.xml" value="0.264" />
+        <entry key="..\:/KULIAH/Bangkit/CapstoneProjectEden/app/src/main/res/layout/fragment_home.xml" value="0.264" />
+        <entry key="..\:/KULIAH/Bangkit/CapstoneProjectEden/app/src/main/res/layout/fragment_my_plants.xml" value="0.136" />
         <entry key="..\:/KULIAH/Bangkit/CapstoneProjectEden/app/src/main/res/layout/item_donasi.xml" value="0.2359375" />
         <entry key="..\:/KULIAH/Bangkit/CapstoneProjectEden/app/src/main/res/layout/item_my_plants.xml" value="0.4" />
         <entry key="..\:/KULIAH/Bangkit/CapstoneProjectEden/app/src/main/res/layout/item_my_plants_detail.xml" value="0.536" />
@@ -32,30 +35,8 @@
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Eden/app/src/main/res/drawable-v24/border_corner_pink.xml" value="0.1795" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Eden/app/src/main/res/drawable-v24/ic_baseline_close_24.xml" value="0.1795" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Eden/app/src/main/res/drawable-v24/ic_eye_disable.xml" value="0.1795" />
-        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Eden/app/src/main/res/drawable/bg_button_disable.xml" value="0.1795" />
-        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Eden/app/src/main/res/drawable/circlebackground.xml" value="0.1795" />
-        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Eden/app/src/main/res/drawable/ic_center_focus_strong_24px_outlined.xml" value="0.1785" />
-        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Eden/app/src/main/res/drawable/searchview_bg.xml" value="0.1795" />
-        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Eden/app/src/main/res/layout/activity_choose_gacha.xml" value="0.22" />
-        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Eden/app/src/main/res/layout/activity_detail_donasi.xml" value="0.25" />
-        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Eden/app/src/main/res/layout/activity_home.xml" value="0.25" />
-        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Eden/app/src/main/res/layout/activity_login.xml" value="0.28044280442804426" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Eden/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Eden/app/src/main/res/layout/activity_main.xml" value="0.22" />
-        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Eden/app/src/main/res/layout/activity_metode_pembayaran.xml" value="0.25" />
-        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Eden/app/src/main/res/layout/activity_my_plants2.xml" value="0.1693840579710145" />
-        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Eden/app/src/main/res/layout/activity_my_plants_detail.xml" value="0.5" />
-        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Eden/app/src/main/res/layout/activity_plant_list_task.xml" value="0.33" />
-        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Eden/app/src/main/res/layout/activity_register.xml" value="0.25" />
-        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Eden/app/src/main/res/layout/activity_scan2.xml" value="0.25" />
-        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Eden/app/src/main/res/layout/activity_task_list_detail.xml" value="0.1693840579710145" />
-        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Eden/app/src/main/res/layout/fragment_donasi.xml" value="0.25" />
-        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Eden/app/src/main/res/layout/fragment_gacha.xml" value="0.1693840579710145" />
-        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Eden/app/src/main/res/layout/fragment_home.xml" value="0.5016129032258064" />
-        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Eden/app/src/main/res/layout/fragment_my_plants.xml" value="0.33" />
-        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Eden/app/src/main/res/layout/item_donasi.xml" value="0.33" />
-        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Eden/app/src/main/res/layout/popup_gacha.xml" value="0.25" />
-        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Eden/app/src/main/res/menu/bottom_nav_menu.xml" value="0.20416666666666666" />
       </map>
     </option>
   </component>

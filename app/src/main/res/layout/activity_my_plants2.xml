@@ -6,48 +6,5 @@
     android:layout_height="match_parent"
     tools:context=".MyPlantsActivity2">
 
-    <TextView
-        android:id="@+id/title_myPlants"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="30dp"
-        android:fontFamily="@font/poppins_bold"
-        android:text="@string/my_plants"
-        android:textColor="#3E3E3E"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-
-
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/floatingActionButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="306dp"
-        android:layout_marginTop="588dp"
-        android:layout_marginEnd="30dp"
-        android:clickable="true"
-        app:cardCornerRadius="12dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/floating_button"
-        android:focusable="true" />
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rv_listPlants_in_myPlants"
-        android:layout_width="409dp"
-        android:layout_height="513dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginEnd="30dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/title_myPlants"
-        tools:listitem="@layout/item_my_plants" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

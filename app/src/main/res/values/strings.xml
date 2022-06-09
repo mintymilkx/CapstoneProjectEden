@@ -19,7 +19,7 @@
     <string name="login_account">Login</string>
     <string name="don_t_have_account"><u>Doesn\'t have an account? Create Account</u></string>
     <string name="create_acc">Create Account</string>
-<<<<<<<<< Temporary merge branch 1
+
 
     <string name="log_in">Log In</string>
     <string name="fill_field">Field cannot be empty</string>
@@ -115,5 +115,5 @@
     <string name="card_info4">You choose the right path to invest your time and energy to start caring plant and trees!</string>
     <string name="thank_you">Thank you for you action! :D</string>
     <string name="my_plants">My Plants</string>
-    <string name="planted">Planted -</string>
+
 </resources>
