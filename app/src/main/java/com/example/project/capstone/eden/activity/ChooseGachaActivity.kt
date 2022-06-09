@@ -1,9 +1,10 @@
-package com.example.project.capstone.eden
+package com.example.project.capstone.eden.activity
 
 import android.app.Dialog
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import com.example.project.capstone.eden.R
 import com.example.project.capstone.eden.databinding.ActivityChooseGachaBinding
 
 class ChooseGachaActivity : AppCompatActivity() {

@@ -4,12 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RegisterActivity">
+    tools:context=".activity.RegisterActivity">
 
     <ImageView
         android:id="@+id/create_acc"
-        android:layout_width="412dp"
+        android:layout_width="match_parent"
         android:layout_height="317dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="0dp"
@@ -17,14 +19,6 @@
         android:contentDescription="@string/create_acc"
         android:src="@drawable/create_account" />
 
-    <ProgressBar
-        android:id="@+id/progress_bar_register"
-        style="?android:attr/progressBarStyle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:visibility="gone"
-        tools:visibility="visible" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -87,7 +81,7 @@
             android:layout_marginStart="32dp"
             android:layout_marginTop="12dp"
             android:text="@string/password"
-            android:textColor="@color/mocca"
+            android:textColor="@color/black"
             android:textSize="12sp" />
 
         <com.example.project.capstone.eden.customview.EditTextPassword
@@ -110,20 +104,8 @@
             android:layout_marginStart="32dp"
             android:layout_marginTop="12dp"
             android:text="@string/forget_password"
-            android:textColor="@color/mocca"
+            android:textColor="@color/black"
             android:textSize="12sp" />
-
-        <TextView
-            android:id="@+id/regist_with_google"
-            style="@style/TextViewMedium"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="4dp"
-            android:text="@string/google_signup"
-            android:textColor="@color/blue_300"
-
-            android:textStyle="bold" />
 
         <com.example.project.capstone.eden.customview.RegisterButtonCustom
             android:id="@+id/btn_register"
@@ -131,7 +113,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
-            android:layout_marginTop="12dp"
+            android:layout_marginTop="20dp"
             android:layout_marginEnd="32dp"
             android:contentDescription="@string/signup_account" />
 
@@ -143,10 +125,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
             android:text="@string/have_account"
-            android:textColor="@color/gray_400"
-            android:textStyle="bold" />
-
-
+            android:textColor="@color/blue_300" />
 
 
     </LinearLayout>

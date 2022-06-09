@@ -18,5 +18,6 @@
     <color name="gray_500">#F8F8F8</color>
     <color name="gray_600">#838383</color>
     <color name="gray_for_bckgrwnd">#E5E5E5</color>
+    <color name="red">#b22222</color>
 
 </resources>

@@ -1,9 +1,10 @@
-package com.example.project.capstone.eden
+package com.example.project.capstone.eden.activity
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.Fragment
+import com.example.project.capstone.eden.R
 import com.example.project.capstone.eden.fragment.DonasiFragment
 import com.example.project.capstone.eden.fragment.GachaFragment
 import com.example.project.capstone.eden.fragment.HomeFragment
@@ -16,7 +17,7 @@ class HomeActivity : AppCompatActivity() {
     @Suppress("DEPRECATION")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_on_boarding)
 
         val homeFragment = HomeFragment()
         val myPlantsFragment = MyPlantsFragment()

@@ -17,16 +17,15 @@
     <string name="input_password">Input password</string>
     <string name="forget_password">Forget Password?</string>
     <string name="login_account">Login</string>
-    <string name="don_t_have_account"><u>Doesn\'t have an account? Create Account</u></string>
+    <string name="don_t_have_account"><u>Doesn\'t have an account? <b>Create Account</b></u></string>
     <string name="create_acc">Create Account</string>
-
 
     <string name="log_in">Log In</string>
     <string name="fill_field">Field cannot be empty</string>
     <string name="input_name">Input name</string>
     <string name="sign_up">Sign Up</string>
     <string name="signup_account">Sign Up</string>
-    <string name="have_account"><u>Already Have an Account? Log In</u></string>
+    <string name="have_account"><u>Already Have an Account? <b>Log In</b></u></string>
     <string name="google_signup">Sign Up With Google</string>
     <string name="google_login">Log In With Google</string>
     <string name="gacha">Gacha</string>
@@ -61,10 +60,9 @@
     <string name="virtual_acc">Transfer Virtual Account</string>
     <string name="mandiri">Mandiri</string>
     <string name="bca">BCA</string>
-    <string name="pembayaran_lain"><u>LSee Another Payment Method</u></string>
-    <string name="pembayaran_lain"><u>Lihat Metode Pembayaran Lainnya</u></string>
+    <string name="pembayaran_lain"><u>See Another Payment Method</u></string>
 
-
+    <string name="title_activity_detail_plant_after_scan">DetailPlantAfterScanActivity</string>
     <string name="point_overall">%points</string>
     <string name="plant_name">%plant name</string>
     <string name="planted_date">%planted date</string>
@@ -80,7 +78,7 @@
     <string name="planted">Planted</string>
     <string name="history">History</string>
     <string name="benefit_desc">Benefit description</string>
-    <string name="physicalAppearance_desc">Physical apearcance description</string>
+    <string name="physical_appearance_desc">Physical apearcance description</string>
     <string name="plant_detail">Plant Detail</string>
     <string name="benefit">Benefit</string>
     <string name="physical_appearance">Physical Appearance</string>
@@ -116,4 +114,9 @@
     <string name="thank_you">Thank you for you action! :D</string>
     <string name="my_plants">My Plants</string>
 
+    <string name="plants_fab">My Plants FAB</string>
+    <string name="close_camera">Close Camera</string>
+    <string name="back_button">Back Button</string>
+    <string name="goal">Goal</string>
+    <string name="logout">Log Out</string>
 </resources>
