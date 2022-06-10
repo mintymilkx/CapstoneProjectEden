@@ -97,7 +97,6 @@ class RegisterActivity : AppCompatActivity() {
                         val currentUserDb = databaseReference?.child((currentUser?.uid!!))
                         currentUserDb?.child("username")?.setValue(username)
                         Toast.makeText(this, "Registration success! You can login with your account", Toast.LENGTH_LONG).show()
-                        //startActivity(Intent(this, LoginActivity::class.java))
                         finish()
 
                     } else {
