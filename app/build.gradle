@@ -77,4 +77,8 @@ dependencies {
     implementation 'com.google.firebase:firebase-analytics-ktx:21.0.0'
     implementation 'com.google.firebase:firebase-database-ktx:20.0.5'
 
+    //glide implementation for image url
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.13.0'
+    implementation 'com.github.bumptech.glide:glide:4.13.1'
+
 }
