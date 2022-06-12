@@ -21,30 +21,30 @@
         app:layout_constraintTop_toTopOf="parent" />
 
 
-
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/floatingActionButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="306dp"
-        android:layout_marginTop="588dp"
+        android:layout_marginTop="560dp"
         android:layout_marginEnd="30dp"
         android:clickable="true"
+        android:focusable="true"
+        app:backgroundTint="@android:color/holo_green_dark"
         app:cardCornerRadius="12dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/floating_button"
-        android:focusable="true"
-        android:contentDescription="@string/plants_fab" />
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_listPlants_in_myPlants"
         android:layout_width="409dp"
         android:layout_height="513dp"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="36dp"
         android:layout_marginEnd="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

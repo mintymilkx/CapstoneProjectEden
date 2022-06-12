@@ -85,6 +85,8 @@
     <string name="task_title">Task</string>
     <string name="progress_title">Progress :</string>
     <string name="this_week">This week</string>
+    <string name="goal">Goal</string>
+
     <string name="action_settings">Settings</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
@@ -110,10 +112,12 @@
     <string name="card_info3">Plants and trees are important to save our earth from global warming by filtering pollution!</string>
     <string name="card_info4">You choose the right path to invest your time and energy to start caring plant and trees!</string>
     <string name="thank_you">Thank you for you action! :D</string>
+
+
     <string name="plants_fab">My Plants FAB</string>
     <string name="close_camera">Close Camera</string>
     <string name="back_button">Back Button</string>
-    <string name="goal">Goal</string>
+
     <string name="logout">Log Out</string>
     <string name="donation_desc">We want to raise funds to help the survival of wild animals and protected animals that live around the buffer forest of Gunung Leuser National Park by planting fruit trees so that they can later be enjoyed by wildlife and farmers. Why do we need help? We were moved to raise funds because we needed the help of friends to help sustain our activities to build a food sustainability system for wild animals and protected animals that live in the buffer zone of the Gunung Leuser National Park forest. By building a system we can reduce the killing of wild animals that come to villagers\' areas to find food sources for them.</string>
     <string name="penggalang_dana">Fundraiser</string>

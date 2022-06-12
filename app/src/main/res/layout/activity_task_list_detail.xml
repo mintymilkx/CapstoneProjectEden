@@ -20,10 +20,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/bt_back" />
+        app:layout_constraintTop_toTopOf="@+id/bt_close_in_task" />
 
     <ImageView
-        android:id="@+id/bt_back"
+        android:id="@+id/bt_close_in_task"
         android:layout_width="35dp"
         android:layout_height="35dp"
         android:layout_marginStart="30dp"
@@ -45,8 +45,8 @@
         android:text="@string/progress_title"
         android:textColor="#212121"
         android:textSize="17sp"
-        app:layout_constraintStart_toStartOf="@+id/bt_back"
-        app:layout_constraintTop_toBottomOf="@+id/bt_back" />
+        app:layout_constraintStart_toStartOf="@+id/bt_close_in_task"
+        app:layout_constraintTop_toBottomOf="@+id/bt_close_in_task" />
 
     <TextView
         android:id="@+id/tv_progress_in_task_detail"
@@ -75,18 +75,6 @@
         app:layout_constraintTop_toBottomOf="@+id/tv_progress_in_task_detail" />
 
     <TextView
-        android:id="@+id/tv_plant_name_in_task_detail"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="30dp"
-        android:text="@string/plant_name"
-        android:textColor="@color/dark_green"
-        android:textSize="17sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/title_goal" />
-
-    <TextView
         android:id="@+id/title_week"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -99,6 +87,7 @@
         app:layout_constraintTop_toBottomOf="@+id/title_goal" />
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_tasklist"
         android:layout_width="409dp"
         android:layout_height="485dp"
         android:layout_marginStart="30dp"
@@ -107,7 +96,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/title_week"
-        tools:listitem="@layout/item_task_list_detail"/>
+        tools:listitem="@layout/item_task_list_detail" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

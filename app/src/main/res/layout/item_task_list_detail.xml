@@ -2,7 +2,6 @@
 
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
 
     android:id="@+id/group_task_in_myPlantDetails"
     android:layout_width="409dp"
@@ -15,21 +14,21 @@
         android:id="@+id/tv_date_in_myPlantDetail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
         android:layout_marginTop="10dp"
         android:fontFamily="@font/poppins_medium"
-        android:text="TextView"
+        android:text="@string/task_date"
         android:textColor="#4A4A4A"
         android:textSize="11sp" />
 
     <TextView
-        android:id="@+id/tv_points_in_myPlantDetail"
+        android:id="@+id/tv_points_in_taskListDetail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="120dp"
+        android:layout_marginStart="120dp"
         android:layout_marginTop="10dp"
         android:fontFamily="@font/poppins_medium"
-        android:text="TextView"
+        android:text="@string/task_point"
         android:textColor="@color/mocca"
         android:textSize="11sp" />
 
@@ -37,18 +36,18 @@
         android:id="@+id/tv_task_in_myPlantDetail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
         android:layout_marginTop="30dp"
         android:fontFamily="@font/poppins_medium"
-        android:text="TextView"
+        android:text="@string/task"
         android:textColor="@color/green_100"
-        android:textSize="10sp" />
+        android:textSize="11sp" />
 
     <CheckBox
         android:id="@+id/checkBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
-        android:layout_marginLeft="340dp"
-        android:layout_marginRight="30dp" />
+        android:layout_marginStart="340dp"
+        android:layout_marginEnd="30dp" />
 </androidx.cardview.widget.CardView>

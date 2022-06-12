@@ -33,7 +33,7 @@
         </LinearLayout>
 
         <ImageView
-            android:id="@+id/imageView2"
+            android:id="@+id/bt_close"
             android:layout_width="69dp"
             android:layout_height="69dp"
             app:srcCompat="@drawable/ic_baseline_close_24"

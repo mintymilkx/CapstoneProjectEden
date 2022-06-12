@@ -7,7 +7,7 @@
     tools:context=".activity.PlantDetailAfterScanningActivity">
 
     <ImageView
-        android:id="@+id/bt_close_in_myPlantsDetail"
+        android:id="@+id/bt_close_in_afterScan"
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:layout_marginStart="30dp"
@@ -33,20 +33,20 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/bt_close_in_myPlantsDetail" />
+        app:layout_constraintTop_toTopOf="@+id/bt_close_in_afterScan" />
 
     <TextView
         android:id="@+id/tv_plant_name_in_myPlantDetail_afterScan"
-        android:layout_width="180dp"
-        android:layout_height="71dp"
+        android:layout_width="178dp"
+        android:layout_height="79dp"
         android:layout_marginTop="22dp"
         android:fontFamily="@font/poppins_medium"
         android:text="@string/plant_name"
         android:textColor="@color/dark_green"
         android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="@+id/bt_close_in_myPlantsDetail"
-        app:layout_constraintTop_toBottomOf="@+id/bt_close_in_myPlantsDetail" />
+        app:layout_constraintStart_toStartOf="@+id/bt_close_in_afterScan"
+        app:layout_constraintTop_toBottomOf="@+id/bt_close_in_afterScan" />
 
     <TextView
         android:id="@+id/tv_plant_type_in_myPlantDetail_afterScan"
@@ -60,7 +60,7 @@
         app:layout_constraintTop_toBottomOf="@+id/tv_plant_name_in_myPlantDetail_afterScan" />
 
     <TextView
-        android:id="@+id/title_xp_in_myPlantDetail_afterScan"
+        android:id="@+id/tv_xp_in_myPlantDetail_afterScan"
         android:layout_width="63dp"
         android:layout_height="38dp"
         android:layout_marginTop="15dp"
@@ -81,8 +81,8 @@
         android:textColor="@android:color/holo_green_dark"
         android:textSize="15sp"
         android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="@+id/title_xp_in_myPlantDetail_afterScan"
-        app:layout_constraintTop_toBottomOf="@+id/title_xp_in_myPlantDetail_afterScan" />
+        app:layout_constraintStart_toStartOf="@+id/tv_xp_in_myPlantDetail_afterScan"
+        app:layout_constraintTop_toBottomOf="@+id/tv_xp_in_myPlantDetail_afterScan" />
 
     <TextView
         android:id="@+id/tv_benefit_description__afterScan"
@@ -143,6 +143,7 @@
         android:layout_marginTop="24dp"
         android:layout_marginEnd="176dp"
         android:layout_marginBottom="18dp"
+        android:fontFamily="@font/mons_semibold"
         android:gravity="center_horizontal"
         android:text="+ Add to my plants"
         android:textSize="13sp"
