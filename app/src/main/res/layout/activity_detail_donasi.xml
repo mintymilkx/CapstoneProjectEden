@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".ui.donasi.DetailDonasiActivity">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/detailToolbar"
@@ -31,6 +32,7 @@
             android:orientation="vertical">
 
             <ImageView
+                android:id="@+id/iv_sample_donasi"
                 android:layout_width="wrap_content"
                 android:layout_height="222dp"
                 android:contentDescription="@string/sample_detail"
@@ -39,6 +41,7 @@
                 tools:srcCompat="@drawable/sample_donasi" />
 
             <TextView
+                android:id="@+id/tv_nama_donasi"
                 style="@style/TextViewBoldPop"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -49,6 +52,7 @@
                 tools:text="Nama Donasi" />
 
             <TextView
+                android:id="@+id/tv_jumlah_donasi"
                 style="@style/TextViewMedium"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -96,7 +100,7 @@
                         tools:srcCompat="@drawable/sample_penggalang_dana" />
 
                     <TextView
-                        android:id="@+id/tv_donasi"
+                        android:id="@+id/tv_penggalang_dana"
                         style="@style/TextViewSemiBold"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
@@ -120,9 +124,9 @@
                         android:text="@string/organisasi_terverifikasi"
                         android:textColor="@color/gray_600"
                         android:textSize="15sp"
-                        app:layout_constraintEnd_toEndOf="@+id/tv_donasi"
-                        app:layout_constraintStart_toStartOf="@+id/tv_donasi"
-                        app:layout_constraintTop_toBottomOf="@+id/tv_donasi" />
+                        app:layout_constraintEnd_toEndOf="@+id/tv_penggalang_dana"
+                        app:layout_constraintStart_toStartOf="@+id/tv_penggalang_dana"
+                        app:layout_constraintTop_toBottomOf="@+id/tv_penggalang_dana" />
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -139,6 +143,7 @@
                 android:textSize="15sp" />
 
             <TextView
+                android:id="@+id/tv_desc"
                 style="@style/TextViewRegular"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

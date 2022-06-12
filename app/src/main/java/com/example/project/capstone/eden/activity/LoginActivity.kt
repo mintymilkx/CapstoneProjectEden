@@ -105,8 +105,8 @@ class LoginActivity : AppCompatActivity() {
                     val userEmail = firebaseUser!!.email
                     Toast.makeText(this, "Welcome $userEmail", Toast.LENGTH_SHORT).show()
 
-                    //open profile activity
-                    val intent = Intent(this, ProfileActivity::class.java)
+                    //open home activity
+                    val intent = Intent(this, HomeActivity::class.java)
                     startActivity(intent)
                     finish()
                 }
@@ -126,7 +126,7 @@ class LoginActivity : AppCompatActivity() {
         val firebaseUser = firebaseAuth.currentUser
         if (firebaseUser != null){
             //user is already logged in
-            startActivity(Intent(this, ProfileActivity::class.java))
+            startActivity(Intent(this, HomeActivity::class.java))
             finish()
 
             //THE REAL INTENT
