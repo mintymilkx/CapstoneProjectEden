@@ -8,7 +8,8 @@ import com.example.project.capstone.eden.R
 import com.example.project.capstone.eden.ui.donasi.DonasiFragment
 import com.example.project.capstone.eden.fragment.GachaFragment
 import com.example.project.capstone.eden.fragment.HomeFragment
-import com.example.project.capstone.eden.fragment.MyPlantsFragment
+import com.example.project.capstone.eden.ui.myplant.MyPlantsFragment
+import com.example.project.capstone.eden.ui.scan.CameraActivity
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class HomeActivity : AppCompatActivity() {
@@ -33,7 +34,7 @@ class HomeActivity : AppCompatActivity() {
                 R.id.home -> makeCurrentFragment(homeFragment)
                 R.id.plants -> makeCurrentFragment(myPlantsFragment)
                 R.id.scan -> {
-                    val intent = Intent(this, ScanActivity::class.java)
+                    val intent = Intent(this, CameraActivity::class.java)
                     startActivity(intent)
                 }
                 R.id.gacha -> makeCurrentFragment(gachaFragment)

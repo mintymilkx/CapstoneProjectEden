@@ -42,7 +42,6 @@ class DonasiAdapter(
         return donasiList.size
     }
 
-    //change to inner from public
     public class DonasiViewHolder(itemView: View): RecyclerView.ViewHolder(itemView) {
         val jumlahDonasi: TextView = itemView.findViewById(R.id.tv_jumlah)
         val fotoDonasi: ImageView = itemView.findViewById(R.id.iv_donasi)
