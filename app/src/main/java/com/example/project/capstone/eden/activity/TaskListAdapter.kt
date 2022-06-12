@@ -31,6 +31,6 @@ class TaskListAdapter(private val context: Context, private val taskList: List<T
     class MyViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
 
         val taskGoal : TextView = itemView.findViewById(R.id.tv_task_in_myPlantDetail)
-        val point : TextView = itemView.findViewById(R.id.tv_points_in_taskListDetail)
+        val point : TextView = itemView.findViewById(R.id.tv_point_in_task_list)
     }
 }

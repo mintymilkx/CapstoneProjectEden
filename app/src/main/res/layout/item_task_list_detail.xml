@@ -11,24 +11,13 @@
     app:layout_constraintTop_toTopOf="parent">
 
     <TextView
-        android:id="@+id/tv_date_in_myPlantDetail"
+        android:id="@+id/tv_point_in_task_list"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
         android:layout_marginTop="10dp"
         android:fontFamily="@font/poppins_medium"
-        android:text="@string/task_date"
-        android:textColor="#4A4A4A"
-        android:textSize="11sp" />
-
-    <TextView
-        android:id="@+id/tv_points_in_taskListDetail"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="120dp"
-        android:layout_marginTop="10dp"
-        android:fontFamily="@font/poppins_medium"
-        android:text="@string/task_point"
+        android:text="@string/points"
         android:textColor="@color/mocca"
         android:textSize="11sp" />
 
