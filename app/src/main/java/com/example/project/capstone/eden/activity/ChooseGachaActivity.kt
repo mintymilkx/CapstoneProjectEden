@@ -17,8 +17,6 @@ class ChooseGachaActivity : AppCompatActivity() {
         binding = ActivityChooseGachaBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        //btnCustomPopUp = findViewById(R.id.btn_exchange)
-
         showGachaResult()
 
     }
@@ -38,18 +36,7 @@ class ChooseGachaActivity : AppCompatActivity() {
             }
             dialog.show()
         }
-        //binding.btnExchange.setOnClickListener {
-        //    val view = View.inflate(this, R.layout.popup_gacha, null)
-
-        //    val builder = AlertDialog.Builder(this)
-        //    builder.setView(view)
-
-        //    val dialog = builder.create()
-        //    dialog.window?.setBackgroundDrawableResource(android.R.color.transparent)
-
-        }
-
-
-
 
     }
+
+}
