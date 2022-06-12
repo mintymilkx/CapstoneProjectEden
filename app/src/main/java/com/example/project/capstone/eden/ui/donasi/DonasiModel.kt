@@ -4,6 +4,5 @@ data class DonasiModel(
     val amount: String? = null,
     val photoUrl: String? = null,
     val organizationName: String? = null,
-    val title: String? = null,
-    val description: String? = null,
+    val title: String? = null
 )

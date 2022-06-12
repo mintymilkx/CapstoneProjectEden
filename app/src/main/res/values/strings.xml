@@ -115,4 +115,6 @@
     <string name="back_button">Back Button</string>
     <string name="goal">Goal</string>
     <string name="logout">Log Out</string>
+    <string name="donation_desc">We want to raise funds to help the survival of wild animals and protected animals that live around the buffer forest of Gunung Leuser National Park by planting fruit trees so that they can later be enjoyed by wildlife and farmers. Why do we need help? We were moved to raise funds because we needed the help of friends to help sustain our activities to build a food sustainability system for wild animals and protected animals that live in the buffer zone of the Gunung Leuser National Park forest. By building a system we can reduce the killing of wild animals that come to villagers\' areas to find food sources for them.</string>
+    <string name="penggalang_dana">Fundraiser</string>
 </resources>

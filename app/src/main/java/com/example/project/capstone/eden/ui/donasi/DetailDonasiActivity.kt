@@ -7,9 +7,14 @@ import android.widget.TextView
 import androidx.annotation.StringRes
 import com.example.project.capstone.eden.R
 import com.example.project.capstone.eden.databinding.ActivityDetailDonasiBinding
+import de.hdodenhof.circleimageview.CircleImageView
 import org.w3c.dom.Text
 
 class DetailDonasiActivity : AppCompatActivity() {
+
+    private lateinit var donasiImage: ImageView
+    private lateinit var deskripsi: TextView
+    private lateinit var organizationPhoto: CircleImageView
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -19,7 +24,7 @@ class DetailDonasiActivity : AppCompatActivity() {
 
         val name: TextView = findViewById(R.id.tv_nama_donasi)
         val amount: TextView = findViewById(R.id.tv_jumlah_donasi)
-        val photo: ImageView = findViewById(R.id.iv_sample_donasi)
+//      val photo: ImageView = findViewById(R.id.iv_sample_donasi)
         val organization: TextView = findViewById(R.id.tv_penggalang_dana)
 
         val bundle: Bundle? = intent.extras
@@ -30,10 +35,12 @@ class DetailDonasiActivity : AppCompatActivity() {
 
         name.text = donationName
         amount.text = donationAmount
-        photo.setImageResource(donationImage)
+//      photo.setImageResource(donationImage)
         organization.text = organizationName
 
-
+        donasiImage = findViewById(R.id.iv_sample_donasi)
+        deskripsi = findViewById(R.id.tv_desc)
+        organizationPhoto = findViewById(R.id.iv_penggalang)
 
     }
 }
