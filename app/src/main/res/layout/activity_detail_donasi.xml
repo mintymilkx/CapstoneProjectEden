@@ -37,8 +37,7 @@
                 android:layout_height="222dp"
                 android:contentDescription="@string/sample_detail"
                 android:cropToPadding="true"
-                tools:src="@tools:sample/avatars"
-                tools:srcCompat="@drawable/sample_donasi" />
+                android:src="@drawable/tujuan_donasi" />
 
             <TextView
                 android:id="@+id/tv_nama_donasi"
@@ -70,7 +69,7 @@
                 android:layout_marginTop="14dp"
                 android:textColor="@color/gray_600"
                 android:textSize="15sp"
-                tools:text="Penggalang Dana" />
+                android:text="@string/penggalang_dana" />
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cv_penggalang"
@@ -86,18 +85,16 @@
                     android:layout_height="wrap_content"
                     android:padding="8dp">
 
-                    <ImageView
+                    <de.hdodenhof.circleimageview.CircleImageView
                         android:id="@+id/iv_penggalang"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:layout_marginStart="8dp"
-                        android:adjustViewBounds="true"
                         android:contentDescription="@string/penggalang_sample"
                         android:scaleType="centerCrop"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        tools:src="@tools:sample/avatars"
-                        tools:srcCompat="@drawable/sample_penggalang_dana" />
+                        android:src="@drawable/organisasi" />
 
                     <TextView
                         android:id="@+id/tv_penggalang_dana"
@@ -145,13 +142,14 @@
             <TextView
                 android:id="@+id/tv_desc"
                 style="@style/TextViewRegular"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp"
                 android:layout_marginTop="6dp"
+                android:text="@string/donation_desc"
                 android:textColor="@color/gray_600"
-                android:textSize="15sp"
-                tools:text="Deskripsi Donasi" />
+                android:textSize="15sp" />
 
         </LinearLayout>
 
@@ -164,8 +162,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="32dp"
-        android:layout_marginBottom="32dp"
         android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        android:textSize="16sp"
         android:text="@string/donasi_sekarang"
         android:textStyle="bold" />
 
