@@ -22,7 +22,7 @@
         android:textSize="11sp" />
 
     <TextView
-        android:id="@+id/tv_points_in_myPlantDetail"
+        android:id="@+id/tv_points_in_taskListDetail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="120dp"
@@ -39,7 +39,7 @@
         android:layout_marginStart="30dp"
         android:layout_marginTop="30dp"
         android:fontFamily="@font/poppins_medium"
-        android:text="@string/plant_name"
+        android:text="@string/task"
         android:textColor="@color/green_100"
         android:textSize="11sp" />
 

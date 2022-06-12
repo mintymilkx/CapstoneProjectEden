@@ -147,7 +147,4 @@
         app:layout_constraintTop_toBottomOf="@+id/title_physical_appearance" />
 
 
-
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>
