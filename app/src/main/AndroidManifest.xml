@@ -3,6 +3,10 @@
     package="com.example.project.capstone.eden">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
 
     <application
         android:allowBackup="true"
@@ -21,13 +25,13 @@
             android:name=".activity.MyPlantsActivity2"
             android:exported="false" />
         <activity
-            android:name=".activity.TaskListDetailActivity"
+            android:name=".ui.task.TaskListDetailActivity"
             android:exported="false" />
         <activity
             android:name=".activity.PlantListTaskActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.PlantDetailAfterScanningActivity"
+            android:name=".ui.scan.PlantDetailAfterScanningActivity"
             android:exported="false" />
         <activity
             android:name=".activity.HomeActivity"
@@ -53,6 +57,9 @@
         </activity>
         <activity
             android:name=".activity.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.scan.CameraActivity"
             android:exported="false" />
     </application>
 

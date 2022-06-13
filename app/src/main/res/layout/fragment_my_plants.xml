@@ -4,7 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragment.MyPlantsFragment">
+    tools:context=".ui.myplant.MyPlantsFragment">
 
     <TextView
         android:id="@+id/title_myPlants"
@@ -21,33 +21,34 @@
         app:layout_constraintTop_toTopOf="parent" />
 
 
-
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/floatingActionButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="306dp"
-        android:layout_marginTop="588dp"
-        android:layout_marginEnd="30dp"
+        android:layout_marginEnd="32dp"
         android:clickable="true"
+        android:contentDescription="@string/add_plant_fab"
+        android:focusable="true"
         app:cardCornerRadius="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/floating_button"
-        android:focusable="true" />
+        app:layout_constraintVertical_bias="0.931"
+        app:srcCompat="@drawable/floating_button" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_listPlants_in_myPlants"
         android:layout_width="409dp"
         android:layout_height="513dp"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="5dp"
         android:layout_marginEnd="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/floatingActionButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/title_myPlants"
+        app:layout_constraintTop_toBottomOf="@id/rv_listPlants_in_myPlants"
         tools:listitem="@layout/item_my_plants" />
 
 
