@@ -39,7 +39,7 @@
 <td align="center">A7006F0513</td>
 <td align="center">Mobile Development</td>
 <td align="center">Mobile Developer</td>
-
+<td align="center">Universitas Brawijaya</td>
 </tr>
 <tr>
 <td align="center">George Alexander Suwito</td>
