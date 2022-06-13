@@ -90,7 +90,7 @@
             android:layout_marginStart="101dp"
             android:fontFamily="@font/poppins_bold"
             android:foregroundGravity="center_vertical|center_horizontal"
-            android:text="@string/point_overall"
+            android:text="400"
             android:textColor="@color/dark_green"
             android:textSize="15sp"
             android:textStyle="bold" />
@@ -139,17 +139,7 @@
             android:textColor="@android:color/holo_green_dark"
             android:textSize="9sp" />
 
-        <TextView
-            android:id="@+id/desc_gardening_par3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="19dp"
-            android:layout_marginTop="75dp"
-            android:layout_marginEnd="76dp"
-            android:fontFamily="@font/mons_semibold"
-            android:text="So, let's just garden, shall we?"
-            android:textColor="@android:color/holo_green_dark"
-            android:textSize="9sp" />
+
 
 
 
@@ -209,7 +199,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="19dp"
-            android:layout_marginTop="45dp"
+            android:layout_marginTop="39dp"
             android:layout_marginRight="19dp"
             android:fontFamily="@font/mons_semibold"
             android:text="Your plants need your attention and affection. Keep an eye for them please :D"
