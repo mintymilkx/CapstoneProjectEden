@@ -61,6 +61,10 @@
         <activity
             android:name=".ui.scan.CameraActivity"
             android:exported="false" />
+        <activity
+            android:name=""
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
     </application>
 
 </manifest>
